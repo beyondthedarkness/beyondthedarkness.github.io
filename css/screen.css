@@ -1,0 +1,264 @@
+* {margin: 0; padding: 0;}
+
+body {
+	background: #000 url(/img/bg.jpg) repeat center top;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: #41abe1;
+	font-size: 12px;
+    line-height: 14px;
+	letter-spacing: 0.02em;
+}
+
+a:hover {
+	color: #d32835;
+}
+
+h3 small {
+	font-size: 12px;
+    line-height: 14px;
+	letter-spacing: 0.02em;
+	font-weight: 400;
+	text-transform: lowercase;
+}
+
+.logo {
+	margin: 50px auto -39px;
+	height: 153px;
+	width: 999px;
+	background: url(/img/logo.png) 0 0 no-repeat;
+}
+
+.header span.language {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #5d5c5c;
+    display: block;
+    float: left;
+    font-weight: 800;
+	padding: 10px 0 0 12px;
+}
+
+.header span.language a.active {
+	color: #5d5c5c;
+	text-decoration: none;
+}
+
+.content {
+	margin: 0 auto;
+	width: 980px;
+}
+
+.header {
+	height: 83px;
+}
+
+.block {
+	color: #fff;
+	overflow: hidden;
+}
+
+.block-about {
+    width: 325px;
+	height: 408px;
+    border-right: 1px solid #5d5c5c;
+    border-bottom: 1px solid #5d5c5c;
+    padding: 0 30px 0 0;
+}
+
+.block-audio {
+    width: 584px;
+    height: 517px;
+	border-bottom: 1px solid #5d5c5c;
+	padding: 0 0 0 40px;
+}
+
+.block-audio img {
+	height: 275px;
+	width: 275px;
+    border: 1px solid #fff;
+}
+
+.block-contacts {
+    width: 325px;
+	height: 180px;
+    border-right: 1px solid #5d5c5c;
+	border-bottom: 1px solid #5d5c5c;
+    padding: 20px 30px 28px 0;
+}
+
+.block-video {
+	width: 584px;
+    height: 450px;
+	border-bottom: 1px solid #5d5c5c;
+	padding: 20px 0 0 40px;
+}
+
+.block-video .youtube {
+    overflow: hidden;
+    border: 1px solid #fff;
+    width: 580px;
+    height: 330px;
+    margin: 31px 0 0;
+}
+
+.block-members {
+	width: 584px;
+	height: 645px;
+	padding: 20px 0 0 40px;
+}
+
+.block-show {
+    width: 325px;
+	height: 910px;
+	height: 1381px;
+    border-right: 1px solid #5d5c5c;
+    padding: 20px 30px 0 0;
+}
+
+.block-show img {
+	width: 312px;
+    border: 1px solid #fff;
+}
+
+.block h3 {
+	font-size: 23px;
+	font-weight: 800;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+.block p {
+    font-size: 12px;
+    margin: 0px 0 10px;
+    line-height: 14px;
+	letter-spacing: 0.02em;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.block-members ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 172px;
+    padding: 7px 29px 0 0;
+    height: 266px;
+    overflow: hidden;
+}
+
+.block-members ul li.no-padding {
+	padding: 0;
+}
+
+.block-members img {
+	border: 1px solid #fff;
+}
+
+span.member-name {
+    margin: 15px 0 0;
+    display: block;
+    color: #5d5c5c;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    font-weight: 800;
+}
+
+span.member-role {
+    margin: 8px 0 0;
+	display: block;
+	color: #fff;
+	font-size: 13px;
+	font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+}
+
+.footer {
+	font-size: 14px;
+	color: #fff;
+	padding: 0 0 36px;
+}
+
+.footer span {
+	color: #d32835;
+}
+
+
+
+
+
+.header span.desc {
+	display: block;
+	float: left;
+	
+	color: #5d5c5c;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	
+	padding: 0 25px 0 0;
+}
+
+
+.header ul {
+	display: block;
+	float: left;
+}
+
+.header ul li {
+	float: left;
+	margin-right: 10px;
+	line-height: 28px;
+	margin-top: 3px;
+	list-style-type: none;
+	width: 28px;
+
+}
+.header ul li.sc-btn a{
+	display: block;
+	width: 28px;
+	height: 28px;
+	background: url('/img/social.png');
+}
+	.header ul li.sc-btn a.sc-vk {
+		
+		background-position: 0 0;
+	}
+	.header ul li.sc-btn a.sc-fb {
+		background-position: -28px 0;
+	}
+	.header ul li.sc-btn a.sc-tw {
+		background-position: -56px 0;
+	}
+	.header ul li.sc-btn a.sc-yt {
+		background-position: -84px 0;
+	}
+	.header ul li.sc-btn a:hover {
+		background-position-y: -28px;
+	}
+	
+	
+.album-info {
+	width: 295px;
+}
+
+.album-info span {
+	font-weight: 700;
+}

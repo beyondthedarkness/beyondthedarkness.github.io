@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="/css/screen.css?3" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="/js/scripts.js"></script>
     <link rel="icon" type="image/png" href="/img/favicon.jpg" />
 </head>
 <body>
@@ -23,17 +24,10 @@
         ga('create', 'UA-68404673-1', 'auto');
         ga('send', 'pageview');
 
-        function chr(ascii)
-        {
-            return String.fromCharCode(ascii);
-        }
         $( document ).ready(function() {
-            var email1 = chr(103)+chr(101)+chr(102)+chr(111)+chr(114)+chr(101)+chr(115)+chr(116)+chr(64)+chr(116)+chr(117)+chr(116)+chr(46)+chr(98)+chr(121);
-            var email2 = chr(102)+chr(111)+chr(114)+chr(101)+chr(115)+chr(116)+chr(117)+chr(110)+chr(64)+chr(103)+chr(109)+chr(097)+chr(105)+chr(108)+chr(46)+chr(99)+chr(111)+chr(109);
-            $('#email_1').attr("href", "mailto:" + email1);
-            $('#email_1').text(email1);
-            $('#email_2').attr("href", "mailto:" + email2);
-            $('#email_2').text(email2);
+            generateContacts();
+            randomOfficial();
+            randomLive();
         });
     </script>
     <div class="logo"></div>
@@ -64,6 +58,7 @@
             <div class="left album-info">
                 <p><img src="/img/album.jpg" /></p>
                 <p>
+                    <!--
                     <span>Buy:</span>
                     <br/>
                     <a target="_blank" href="https://itunes.apple.com/album/id1055761845">iTunes</a>
@@ -86,6 +81,7 @@
                     <a target="_blank" href="http://www.jango.com/music/Beyond+The+Darkness">Jango</a>
                     <br/>
                     <br/>
+                    -->
                     <span>Download:</span>
                     <br/>
                     <a target="_blank" href="http://b-t-d.bandcamp.com/album/blind-shadows?action=download&from=website">bandcamp.com</a>
@@ -107,21 +103,21 @@
         <div class="block block-video right">
             <h3>Video <small>(others videos you can find on our <a target="_blank" href="http://www.youtube.com/user/TheBeyondTheDarkness">youtube-channel</a>)</small></h3>
             <div class="youtube">
-                <iframe width="580" height="330" src="https://www.youtube.com/embed/bHQulp2DQ6M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe id="youtube-official" width="580" height="330" src="https://www.youtube.com/embed/bHQulp2DQ6M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         <div class="block block-show left">
-            <h3>Coming shows <small>(more info <a target="_blank" href="https://vk.com/dyfest">here</a>)</small></h3>
+            <h3>Coming shows <small>(more info <a target="_blank" href="https://vk.com/halloweenbrugge">here</a>)</small></h3>
             <p>
-                <a target="_blank" href="https://vk.com/dyfest">
-                    <img src="https://pp.vk.me/c636930/v636930390/3aa40/R4ect4GPrgM.jpg" />
+                <a target="_blank" href="https://vk.com/halloweenbrugge">
+                    <img src="https://sun9-22.userapi.com/c858016/v858016734/d1e2f/QwJ5xeB-4iA.jpg" />
                 </a>
             </p>
         </div>
         <div class="block block-video right">
             <h3>Live <small>(others videos you can find on our <a target="_blank" href="http://www.youtube.com/user/TheBeyondTheDarkness">youtube-channel</a>)</small></h3>
             <div class="youtube">
-                <iframe width="580" height="330" src="https://www.youtube.com/embed/qrRSFMiM9lo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                <iframe id="youtube-live" width="580" height="330" src="https://www.youtube.com/embed/qrRSFMiM9lo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
         <div class="block block-members right">

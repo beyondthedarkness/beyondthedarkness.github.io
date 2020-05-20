@@ -34,7 +34,9 @@ function randomLive()
         "f1Pl9yIvbYY", // Beyond the Darkness - Forgetarium (Live 31/10/2019)
         "4i5NjgrIRfA", // Beyond the Darkness - Split (Live 31/10/2019)
         "CPzOFAG_OMM", // Beyond the Darkness - Farewell (Live 31/10/2019)
-        "Z1XvXkPbkNU"  // Beyond the Darkness - Funeral Of Love (Live 31/10/2019)
+        "Z1XvXkPbkNU", // Beyond the Darkness - Funeral Of Love (Live 31/10/2019)
+        "xYHqufz_7lA", // Beyond the Darkness - Avid Hunger (Live 31/10/2019)
+        "EMDimg4znCs"  // Beyond the Darkness - My Perfect Death (Live 31/10/2019)
     ];
 
     let videoId = ids[Math.floor(Math.random() * ids.length)];

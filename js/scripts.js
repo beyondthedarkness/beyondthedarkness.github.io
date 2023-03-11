@@ -16,11 +16,13 @@ function generateContacts()
 function randomOfficial()
 {
     let ids = [
-        "bHQulp2DQ6M", // Beyond the Darkness - Fear's Face (Official Music Video)
-        "DSVAqX_RQtw", // Beyond the Darkness - Short Story (Official Video)
-        "6hWrnAG6-_4", // Beyond the Darkness - Avid Hunger (Official Video)
-        "-h4Q3mj6hWY", // Beyond the Darkness - Buio Omega (Official Video)
-        "imZMRiSExP0"  // Beyond the Darkness - Wheel of Life (Lyric Video)
+        "bPOA05RVPFM" // Beyond the Darkness - Funeral Of Love
+        
+        //"bHQulp2DQ6M", // Beyond the Darkness - Fear's Face (Official Music Video)
+        //"DSVAqX_RQtw", // Beyond the Darkness - Short Story (Official Video)
+        //"6hWrnAG6-_4", // Beyond the Darkness - Avid Hunger (Official Video)
+        //"-h4Q3mj6hWY", // Beyond the Darkness - Buio Omega (Official Video)
+        //"imZMRiSExP0"  // Beyond the Darkness - Wheel of Life (Lyric Video)
     ];
 
     let videoId = ids[Math.floor(Math.random() * ids.length)];

@@ -16,8 +16,9 @@ function generateContacts()
 function randomOfficial()
 {
     let ids = [
-        "bPOA05RVPFM" // Beyond the Darkness - Funeral Of Love
-        
+        "bPOA05RVPFM", // Beyond the Darkness - Funeral Of Love
+        "2CLHi-IWdlQ" // Beyond the Darkness - My Perfect Death (Official Video)
+
         //"bHQulp2DQ6M", // Beyond the Darkness - Fear's Face (Official Music Video)
         //"DSVAqX_RQtw", // Beyond the Darkness - Short Story (Official Video)
         //"6hWrnAG6-_4", // Beyond the Darkness - Avid Hunger (Official Video)

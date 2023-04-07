@@ -5,10 +5,10 @@ function chr(ascii)
 
 function generateContacts()
 {
-    var email1 = chr(103)+chr(101)+chr(102)+chr(111)+chr(114)+chr(101)+chr(115)+chr(116)+chr(64)+chr(116)+chr(117)+chr(116)+chr(46)+chr(98)+chr(121);
+    // var email1 = chr(103)+chr(101)+chr(102)+chr(111)+chr(114)+chr(101)+chr(115)+chr(116)+chr(64)+chr(116)+chr(117)+chr(116)+chr(46)+chr(98)+chr(121);
     var email2 = chr(102)+chr(111)+chr(114)+chr(101)+chr(115)+chr(116)+chr(117)+chr(110)+chr(64)+chr(103)+chr(109)+chr(097)+chr(105)+chr(108)+chr(46)+chr(99)+chr(111)+chr(109);
-    $('#email_1').attr("href", "mailto:" + email1);
-    $('#email_1').text(email1);
+    // $('#email_1').attr("href", "mailto:" + email1);
+    // $('#email_1').text(email1);
     $('#email_2').attr("href", "mailto:" + email2);
     $('#email_2').text(email2);
 }

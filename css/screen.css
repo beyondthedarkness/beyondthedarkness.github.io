@@ -230,7 +230,7 @@ span.member-role {
     display: block;
     width: 28px;
     height: 28px;
-    background: url('/img/social.png');
+    background: url('/img/social-2.png');
 }
 
 .header ul li.sc-btn a.sc-vk {
@@ -245,6 +245,11 @@ span.member-role {
 .header ul li.sc-btn a.sc-yt {
     background-position: -84px 0;
 }
+
+.header ul li.sc-btn a.sc-ig {
+    background-position: -112px 0;
+}
+
 .header ul li.sc-btn a:hover {
     background-position-y: -28px;
 }
